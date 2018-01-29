@@ -1,0 +1,20 @@
+body { background: rgba(198, 238, 252, 0.53); margin: 0; padding: 10px 0; }
+body #content { width: 960px; margin: 0 auto; padding: 20px; background: #3b3b3b; color: #ffffff; }
+body #content h1 { margin-top: 0; text-transform: uppercase; text-align: center; color: #fccd10; }
+body #content h2 { color: #fccd10; }
+body #content a { color: #fccd10; }
+body #content img { padding: 2px; border: 2px solid #fccd10; }
+body #content .img-right { margin-left: 20px; float: right; }
+body #content .img-left { margin-right: 20px; float: left; }
+body #content .brief { margin-bottom: 40px; padding: 20px; background: #fff178; color: #000000; }
+body #content table { margin-bottom: 50px; border-collapse: collapse; }
+body #content table caption { text-align: right; color: #000000; }
+body #content table tbody th { padding: 10px 20px; font-weight: normal; text-transform: uppercase; text-align: left; background: #94a34e; color: #000000; }
+body #content table tbody th:nth-child(2) { border-right: 1px solid #ffffff; border-left: 1px solid #ffffff; }
+body #content table tbody td { padding: 10px 10px 10px 20px; border-bottom: 1px solid #94a34e; background: #677d01; }
+body #content form { color: #f5c70f; }
+body #content input { width: 100%; margin: 2px 0 12px 0; padding: 4px; color: #808080; }
+body #content .inputShortOne { width: 49%; float: left; }
+body #content .inputShortTwo { width: 49%; float: right; }
+body #content textarea { width: 100%; margin: 5px 0 15px 0; padding: 4px; color: #808080; }
+body #content input[type="submit"] { width: 25%; margin: 0 0 10px 0; padding: 10px; text-transform: uppercase; font-size: 1.2em; color: #f5c70f; background: #3b3b3b; border: 1px solid #f5c70f; }

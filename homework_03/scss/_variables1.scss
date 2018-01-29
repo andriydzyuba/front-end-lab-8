@@ -1,0 +1,18 @@
+$bodyBackground: #dcbb9a;
+$contentBackground: #ffffff;
+$hColor: #893c00;
+$aColor: #3d70a1;
+$briefBackground: #fadcba;
+$tableBackground: #e0e0e0;
+$thBackground: #ffffff;
+$inputColor: #808080;
+$holderColor: #808080;
+$submitColor: #3d70a1;
+
+@mixin brief-style {
+  width: 380px;
+  margin-right: 20px;
+  padding: 20px;
+  float: left;
+  background: $briefBackground;
+}

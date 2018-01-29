@@ -1,0 +1,133 @@
+$bodyBackground: null !default;
+$contentBackground: null !default;
+$colorText: null !default;
+$hColor: null !default;
+$h1Transform: null !default;
+$aColor: null !default;
+$briefBackground: null !default;
+$tableBackground: null !default;
+$captionColor: null !default;
+$thBackground: null !default;
+$dataBackground: null !default;
+$inputColor: null !default;
+$holderColor: null !default;
+$submitColor: null !default;
+
+body {
+  background: $bodyBackground;
+  margin: 0;
+  padding: 10px 0;
+
+  #content {
+    width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+    background: $contentBackground;
+    color: $colorText;
+
+    h1 {
+      margin-top: 0;
+      text-transform: $h1Transform;
+      text-align: center;
+      color: $hColor;
+    }
+
+    h2 {
+      color: $hColor;
+    }
+
+    a {
+      color: $aColor;
+    }
+
+    img {
+      padding: 2px;
+      border: 2px solid $hColor;
+    }
+
+    .img-right {
+      margin-left: 20px;
+      float: right;
+    }
+
+    .img-left {
+      margin-right: 20px;
+      float: left;
+    }
+
+    .brief {
+      @include brief-style;
+    }
+
+    table {
+      margin-bottom: 50px;
+      border-collapse: collapse;
+
+      caption {
+        text-align: right;
+        color: $captionColor;
+      }
+
+      tbody {
+        th {
+          padding: 10px 20px;
+          font-weight: normal;
+          text-transform: uppercase;
+          text-align: left;
+          background: $tableBackground;
+          color: $captionColor;
+        }
+
+        th:nth-child(2) {
+          border-right: 1px solid $thBackground;
+          border-left: 1px solid $thBackground;
+        }
+
+        td {
+          padding: 10px 10px 10px 20px;
+          border-bottom: 1px solid $tableBackground;
+          background: $dataBackground;
+        }
+      }
+    }
+
+    form {
+      color: $inputColor;
+    }
+
+    input {
+      width: 100%;
+      margin: 2px 0 12px 0;
+      padding: 4px;
+      color: $holderColor;
+    }
+
+    .inputShortOne {
+      width: 49%;
+      float: left;
+    }
+
+    .inputShortTwo {
+      width: 49%;
+      float: right;
+    }
+
+    textarea {
+      width: 100%;
+      margin: 5px 0 15px 0;
+      padding: 4px;
+      color: $holderColor;
+    }
+
+    input[type="submit"] {
+      width: 25%;
+      margin: 0 0 10px 0;
+      padding: 10px;
+      text-transform: uppercase;
+      font-size: 1.2em;
+      color: $submitColor;
+      background: $contentBackground;
+      border: 1px solid $submitColor;
+    }
+  }
+}
