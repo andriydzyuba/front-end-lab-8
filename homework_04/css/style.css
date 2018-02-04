@@ -195,24 +195,33 @@ nav {
 
 /* SUBSCRIBE INPUT */
 .mainSubscribe {
-  padding: 50px 70px;
+  height: 60px;
+  margin-top: 10px;
+  padding: 50px 80px;
   background-color: #FFF;
 }
 
   .mainSubscribe > p {
-    width: 40%;
+    width: 35%;
     float: left;
-    margin: 9px 0;
+    margin: 18px 0 0 0;
+    padding-right: 20px;
     font-size: 1.1em;
   }
 
-  .mainSubscribe > div: {
+  .mainSubscribe > div {
     width: 60%;
     float: right;
+    padding-top: 9px;
+  }
+
+  .emailSubscribe {
+    display: flex;
+    flex-wrap: nowrap;
   }
 
   .emailSubscribe > input {
-    width: 40%;
+    width: 70%;
     height: 35px;
     padding: 3px 20px;
     font-size: 0.7em;
@@ -228,7 +237,6 @@ nav {
     text-decoration: none;
     background-color: #343638;
     position: relative;
-    top: 1px;
     right: 5px;
   }
 
@@ -292,8 +300,10 @@ footer {
     padding: 3px 20px;
     font-size: 0.7em;
     font-weight: bold;
+    font-style: italic;
+    color: #9E9E9E;
     border: 1px solid #343638;
-    background-color: #E8E8E8;
+    background-color: #F3F3F3;
   }
 
   .footerSubscribe > a {
@@ -306,6 +316,7 @@ footer {
     right: 5px;
   }
 
+/* FOOTER DOWN */
 .footerDown {
   border-top: 2px solid #E8E8E8;
   font-size: 0.9em;
@@ -328,13 +339,3 @@ footer {
     font-weight: bold;
     padding-left: 44px;
   }
-
-/*#B7C8D9
-#FFF
-#F3F3F3
-#A4A4A4
-#F0F0F0
-#000
-#343638
-#E8E8E8
-#9E9E9E*/
