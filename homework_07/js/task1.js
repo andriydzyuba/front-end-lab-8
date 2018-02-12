@@ -1,8 +1,8 @@
 // Getting the number of floors of the pyramid
-var floors = parseInt(prompt("Enter the number of floors of the pyramid (1 to 20): "));
+var floors = Number(prompt("Enter the number of floors of the pyramid (1 to 20): "));
 
 // Checking the correctness of input and output the pyramid in the console
-if (floors > 0 && floors <= 20) {
+if (floors > 0 && floors <= 20 && Number.isInteger(floors)) {
   for (var i = 0; i < floors; i++) {
     var row = "";
     for (var j = 1; j < floors - i; j++) {
