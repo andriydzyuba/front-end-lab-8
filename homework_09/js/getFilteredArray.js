@@ -8,7 +8,3 @@ function getFilteredArray(myArray, myFunction) {
   });
   return filteredArray;
 }
-
-function predicateFunction(num) {
-return num > 3;
-}

@@ -10,5 +10,3 @@ function cypherPhrase(myArray, text) {
     return num;
   }).join("");
 }
-
-let charactersMap = {a: 'o', c: 'd', t: 'g'};

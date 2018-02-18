@@ -6,7 +6,3 @@ function getTransformedArray(myArray, myFunction) {
   });
   return transformedArray;
 }
-
-function increment(num) {
-  return num + 1;
-}
