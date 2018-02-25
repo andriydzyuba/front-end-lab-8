@@ -1,0 +1,35 @@
+li > ul {
+  display: none;
+}
+
+.open{
+  display: block;
+}
+
+ul {
+  list-style: none;
+  padding-left: 10px;
+  cursor: pointer;
+}
+
+ul > li > div {
+  margin-bottom: 3px;
+  display: flex;
+  align-items: flex-end;
+}
+
+ul > li > div:hover {
+  background-color: #f2f2f2;
+}
+
+.material-icons{
+  color: #cccccc;
+}
+
+.folder{
+  color: #f5cd3d;
+}
+
+.empty {
+  font-style: italic;
+}
