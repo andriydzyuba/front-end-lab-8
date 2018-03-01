@@ -1,0 +1,52 @@
+body {
+  background-color: #1C1C1F;
+  color: #FFFFFF;
+  font-family: serif;
+}
+
+h1 {
+  color: #A19E7E;
+}
+
+.board {
+  display: grid;
+  grid-template-columns: 15% 15% 15% 15% 15% 15%;
+  grid-gap: 10px;
+}
+
+.boardTanks {
+  padding: 10px;
+}
+
+.boardTanks:hover {
+  background-color: #2C2C2C;
+}
+
+.boardimg {
+  width: 100%;
+}
+
+.boarddiv {
+  text-align: center;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.boardelem {
+  display: inline;
+}
+
+.boardelem:nth-child(1) {
+  width: 10%;
+}
+
+.boardelem:nth-child(2) {
+  color: #A19E7E;
+  font-weight: bold;
+  margin: 0 5px;
+}
+
+.boardelem:nth-child(3) {
+  font-weight: bold;
+}
